@@ -3,8 +3,7 @@
 # Do not use this in production. Sample purpose only.
 
 # Author: Upkar Lidder (IBM)
-# Addtional Authors:
-# <your Github username>
+# Additional Authors: Sanskar24-k
 
 # Input:
 # p, principal amount
@@ -12,7 +11,7 @@
 # r, annual rate of interest
 
 # Output:
-# simple interest = p*t*r
+# simple interest = p*t*r/100
 
 printf 'Enter the principal: '
 read -r p
