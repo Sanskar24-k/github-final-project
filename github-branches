@@ -3,9 +3,11 @@ git branch -a
   bug-fix-typo
 * main
   remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
   remotes/origin/main
 
 git branch -vv
-  bug-fix-revert 09588ee Revert "Fix README footer year"
-  bug-fix-typo   b893314 Fix README footer year
-* main           b893314 [origin/main: ahead 2] Fix README footer year
+  bug-fix-revert 2fbf925 [origin/bug-fix-revert] Record pull request lookup evidence
+  bug-fix-typo   b893314 [origin/bug-fix-typo] Fix README footer year
+* main           cacefa2 [origin/main] Add merge and branch evidence
