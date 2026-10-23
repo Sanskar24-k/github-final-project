@@ -1,0 +1,6 @@
+curl.exe -sS -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all&head=Sanskar24-k%3Abug-fix-revert&per_page=100"
+[
+
+]
+
+No matching PR currently exists. Required head: Sanskar24-k/mcino-Introduction-to-Git-and-GitHub:bug-fix-revert. Required base: ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub:main.
