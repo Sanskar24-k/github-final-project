@@ -14,13 +14,13 @@
 # Output:
 # simple interest = p*t*r
 
-echo "Enter the principal:"
-read p
-echo "Enter rate of interest per year:"
-read r
-echo "Enter time period in years:"
-read t
+printf 'Enter the principal: '
+read -r p
+printf 'Enter rate of interest per year: '
+read -r r
+printf 'Enter time period in years: '
+read -r t
 
-s=$(expr $p \* $t \* $r / 100)
-echo "The simple interest is: "
-echo $s
+s=$(awk -v principal="$p" -v rate="$r" -v time="$t" \
+    'BEGIN { printf "%.2f", principal * rate * time / 100 }')
+printf 'The simple interest is: %s\n' "$s"
