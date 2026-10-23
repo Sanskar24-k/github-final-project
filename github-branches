@@ -1,7 +1,11 @@
-git -C .\work\fork-audit branch -a
+git branch -a
+  bug-fix-revert
+  bug-fix-typo
 * main
   remotes/origin/HEAD -> origin/main
   remotes/origin/main
 
-git -C .\work\fork-audit branch -vv
-* main ad95b0a [origin/main] Create close_pr.yml
+git branch -vv
+  bug-fix-revert 09588ee Revert "Fix README footer year"
+  bug-fix-typo   b893314 Fix README footer year
+* main           b893314 [origin/main: ahead 2] Fix README footer year
